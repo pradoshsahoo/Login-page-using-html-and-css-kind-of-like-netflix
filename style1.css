@@ -1,0 +1,130 @@
+body{
+    color: red;
+    background: #1d1c1c;
+    border:2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color:#1d1c1c;
+}
+fieldset{
+    color: red;
+    margin: 50px;
+    border-radius: 20px;
+}
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    color:red;
+    background: #1d1c1c);
+
+}
+label{
+    display:block;
+    padding: 5px 0;
+}
+input,textarea{
+    
+    width: fit-content;
+    color: #1d1c1c;
+    border: 5px soid red;
+}
+
+textarea
+{   font-size: large; 
+    background: rgb(36, 34, 34);
+    padding: 3px;
+    color: crimson;
+}
+#image{
+    cursor: pointer;
+    border: 2px solid red
+    margin: 2px;
+    display: subgrid;
+    
+}
+input[type=text]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+input[type=email]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+input[type=date]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+input[type=password]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+input[type=radio]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+input[type=file]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+input[type=number]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+select{
+    color: crimson;
+    background: rgb(36, 34, 34); 
+}
+input[type=tel]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+input[type=button]
+{
+    color: crimson;
+    background: rgb(36, 34, 34);
+}
+#submt{
+    display: block;
+    width: inherit;
+    margin: 2px;
+    padding: 2px;
+    color: red;
+    cursor: pointer;
+}
+#reset{
+    cursor: pointer;
+    color:#1d1c1c;
+}
+.file{
+    padding: 5px;
+}
+#submt{
+    border: 1px solid red;
+    border-radius: 10px;
+    display: block;
+    width: inherit;
+    margin: 0px;
+    padding: 3px;
+    color: red;
+    cursor: pointer;
+    background: rgb(36, 34, 34);
+    
+}
+#reset{
+    cursor: pointer;
+    color:crimson;
+    border: 1px solid red;
+    border-radius: 10px;
+    background: rgb(36, 34, 34);
+}

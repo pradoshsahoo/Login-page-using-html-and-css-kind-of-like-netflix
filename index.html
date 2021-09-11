@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1><center>NOTFLIX</center></h1>
+    <form action="assign2ndpage.html" method="GET" id="results"></form>
+    <fieldset>
+        <legend align="center"><h1>LOGIN</h1></legend>
+            <form action="assign2ndpage.html" method="get">
+                    <center>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" required>
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="1" max="200" step=5 required>
+                </div>
+                <div>
+                    <label for="date">Date Of Birth</label>
+                    <input type="date" name="date" id="date" min="1900-01-01" max="2015-01-01" required>
+                </div>
+                <div>
+                    <label for="Phone number">Phone number</label>
+                    <input type="tel" name="phone" id="phone" required>
+                </div>
+                <div>
+                    <label for="FAVOURITE GENRE">FAVOURITE GENRE</label>
+                    <br>
+                    <select name="favourite" id="favourite" multiple required>
+                    <option value="SELECT">-SELECT-</option>     
+                    <option value="ACTION">ACTION</option>
+                    <option value="ACTION">ROM-COM</option>
+                    <option value="ACTION">THRILLER</option>
+                    <option value="ACTION">FANTASY</option>
+                    <option value="ACTION">MUSICAL</option>
+                </select>
+                </div>
+                <div>
+                    <label for="bio">BIO</label>
+                    <br>
+                    <textarea name="bio" id="bio" cols="50" rows="5"placeholder="WRITE HERE"></textarea>
+                </div>
+                <div>
+                    <label for="Gender">Gender:</label>
+                    
+                    <input type="radio" name="gender" id="male"> Male
+                    <input type="radio" name="gender" id="female">Female
+                </div>
+                <br>
+                <div class="file">
+                    <label for="file" id="file">UPLOAD IMAGE</label>
+                    <input type="file" name="image" id="image">
+                </div>
+                <br>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                </div >
+                <br>
+                <br>
+                <br>
+                <button type="submit" form="results" value="submit" id="submt">
+                    SUBMIT
+                </button>
+                <br>
+                <button type="reset" value="reset" id="reset">
+                    RESET
+                </button>
+                  
+            </center>
+            </form>
+    </fieldset>
+</body>
+</html>
